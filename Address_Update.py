@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 
-#Provision an entire store, bind to profile, assign a device, tag, and configure the ip addresses
+#Allow Helpdesk to update the address for the network device.
 
 #imports
 import requests
 import json
-import os
 
 #Private credentials file, used to make life easy when I deploy new scripts.
 import cred
